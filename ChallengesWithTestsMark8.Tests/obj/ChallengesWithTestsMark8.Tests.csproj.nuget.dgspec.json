@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "/Users/michaeldoyle/Downloads/ChallengesWithTests-Mark8/ChallengesWithTestsMark8.Tests/ChallengesWithTestsMark8.Tests.csproj": {}
+    "/Users/hunterelam/Desktop/repos/weeklychallenges-Drerrday/ChallengesWithTestsMark8.Tests/ChallengesWithTestsMark8.Tests.csproj": {}
   },
   "projects": {
-    "/Users/michaeldoyle/Downloads/ChallengesWithTests-Mark8/ChallengesWithTestsMark8.Tests/ChallengesWithTestsMark8.Tests.csproj": {
+    "/Users/hunterelam/Desktop/repos/weeklychallenges-Drerrday/ChallengesWithTestsMark8.Tests/ChallengesWithTestsMark8.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/michaeldoyle/Downloads/ChallengesWithTests-Mark8/ChallengesWithTestsMark8.Tests/ChallengesWithTestsMark8.Tests.csproj",
+        "projectUniqueName": "/Users/hunterelam/Desktop/repos/weeklychallenges-Drerrday/ChallengesWithTestsMark8.Tests/ChallengesWithTestsMark8.Tests.csproj",
         "projectName": "ChallengesWithTestsMark8.Tests",
-        "projectPath": "/Users/michaeldoyle/Downloads/ChallengesWithTests-Mark8/ChallengesWithTestsMark8.Tests/ChallengesWithTestsMark8.Tests.csproj",
-        "packagesPath": "/Users/michaeldoyle/.nuget/packages/",
-        "outputPath": "/Users/michaeldoyle/Downloads/ChallengesWithTests-Mark8/ChallengesWithTestsMark8.Tests/obj/",
+        "projectPath": "/Users/hunterelam/Desktop/repos/weeklychallenges-Drerrday/ChallengesWithTestsMark8.Tests/ChallengesWithTestsMark8.Tests.csproj",
+        "packagesPath": "/Users/hunterelam/.nuget/packages/",
+        "outputPath": "/Users/hunterelam/Desktop/repos/weeklychallenges-Drerrday/ChallengesWithTestsMark8.Tests/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/michaeldoyle/.config/NuGet/NuGet.Config"
+          "/Users/hunterelam/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
@@ -28,8 +28,8 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "/Users/michaeldoyle/Downloads/ChallengesWithTests-Mark8/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj": {
-                "projectPath": "/Users/michaeldoyle/Downloads/ChallengesWithTests-Mark8/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj"
+              "/Users/hunterelam/Desktop/repos/weeklychallenges-Drerrday/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj": {
+                "projectPath": "/Users/hunterelam/Desktop/repos/weeklychallenges-Drerrday/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj"
               }
             }
           }
@@ -70,20 +70,20 @@
         }
       }
     },
-    "/Users/michaeldoyle/Downloads/ChallengesWithTests-Mark8/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj": {
+    "/Users/hunterelam/Desktop/repos/weeklychallenges-Drerrday/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/michaeldoyle/Downloads/ChallengesWithTests-Mark8/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj",
+        "projectUniqueName": "/Users/hunterelam/Desktop/repos/weeklychallenges-Drerrday/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj",
         "projectName": "ChallengesWithTestsMark8",
-        "projectPath": "/Users/michaeldoyle/Downloads/ChallengesWithTests-Mark8/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj",
-        "packagesPath": "/Users/michaeldoyle/.nuget/packages/",
-        "outputPath": "/Users/michaeldoyle/Downloads/ChallengesWithTests-Mark8/ChallengesWithTestsMark8/obj/",
+        "projectPath": "/Users/hunterelam/Desktop/repos/weeklychallenges-Drerrday/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj",
+        "packagesPath": "/Users/hunterelam/.nuget/packages/",
+        "outputPath": "/Users/hunterelam/Desktop/repos/weeklychallenges-Drerrday/ChallengesWithTestsMark8/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/michaeldoyle/.config/NuGet/NuGet.Config"
+          "/Users/hunterelam/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
