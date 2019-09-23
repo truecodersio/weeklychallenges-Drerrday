@@ -1,28 +1,43 @@
 ﻿using System;
 using System.Collections.Generic;
 
+
 namespace ChallengesWithTestsMark8
 {
     public class ChallengesSet02
     {
         public bool CharacterIsALetter(char c)
         {
-            throw new NotImplementedException();
+            if(c == ' ')
+            {
+                return true;
+            } else
+            {
+                return false;
+            }
         }
 
         public bool CountOfElementsIsEven(string[] vals)
         {
-            throw new NotImplementedException();
+            if (vals.Length % 2 == 0)
+            {
+                return true;
+            } else
+            {
+                return false;
+            }
         }
 
         public bool IsNumberEven(int number)
         {
-            throw new NotImplementedException();
+            var even = (number % 2 == 0);
+            return even;
         }
 
         public bool IsNumberOdd(int num)
         {
-            throw new NotImplementedException();
+            var even = (num % 2 == 0);
+            return !even;
         }
 
         public double SumOfMinAndMax(IEnumerable<double> numbers)
@@ -32,27 +47,65 @@ namespace ChallengesWithTestsMark8
 
         public int GetLengthOfShortestString(string str1, string str2)
         {
-            throw new NotImplementedException();
+            if (str1.Length > str2.Length)
+            {
+                return str2.Length;
+            }
+            else
+            {
+                return str1.Length;
+            }
+
         }
 
         public int Sum(int[] numbers)
         {
-            throw new NotImplementedException();
-        }
+            int total = 0;
+            var arrlength = numbers.Length;
+            for (int i = 0; i < arrlength; i++)
+            {
+                total += numbers[i];
+            }
 
+            return total;
+        }
+        
         public int SumEvens(int[] numbers)
         {
-            throw new NotImplementedException();
+            int total = 0;
+            var arrlength = numbers.Length;
+            for (int i = 0; i < arrlength; i++)
+            {
+                if(numbers[i] % 2 == 0)
+                total += numbers[i];
+            }
+
+            return total;
         }
 
         public bool IsSumOdd(List<int> numbers)
         {
-            throw new NotImplementedException();
+            int sum = 0;
+            int Amount = numbers.Count;
+            for(int i = 0; i < Amount; i++)
+            {
+                sum += numbers[i];
+            }
+            return (sum % 2 != 0);
         }
 
         public long CountOfPositiveOddsBelowNumber(long number)
         {
-            throw new NotImplementedException();
+            int oddCount = 0;
+            for(int i = 0; i < number; i++)
+            {
+                if (number % 2 == 1)
+                {
+                    oddCount++;
+                }
+            }
+
+            return oddCount;
         }
     }
 }
