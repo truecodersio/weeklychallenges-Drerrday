@@ -32,7 +32,7 @@ namespace ChallengesWithTestsMark8
 
         public decimal Divide(decimal dividend, decimal divisor)
         {
-            throw new NotImplementedException();
+            return dividend / divisor;
         }
 
         public int LastMinusFirst(int[] nums)

@@ -22,7 +22,7 @@ namespace ChallengesWithTestsMark8
             if (vals.Length % 2 == 0)
             {
                 return true;
-            } else
+            }
             {
                 return false;
             }
@@ -42,7 +42,21 @@ namespace ChallengesWithTestsMark8
 
         public double SumOfMinAndMax(IEnumerable<double> numbers)
         {
-            throw new NotImplementedException();
+            double min = 0;
+            double max = 0;
+
+            foreach (double num in numbers)
+            {
+                if(num > max)
+                {
+                    max = num;
+                }
+                if(num < min)
+                {
+                    min = num;
+                }
+            }
+            return max - min;
         }
 
         public int GetLengthOfShortestString(string str1, string str2)
