@@ -32,6 +32,7 @@ namespace ChallengesWithTestsMark8
         public bool IsStringANumber(string input)
         {
             throw new NotImplementedException();
+            //int.TryParse(input, out true) ;
         }
 
         public bool MajorityOfElementsInArrayAreNull(object[] objs)
@@ -46,7 +47,12 @@ namespace ChallengesWithTestsMark8
 
         public int Factorial(int number)
         {
-            throw new NotImplementedException();
+            int Fact = 1;
+            for(int i = 1; i < number; i++)
+            {
+                Fact += Fact * i;
+            }
+            return Fact;
         }
     }
 }
