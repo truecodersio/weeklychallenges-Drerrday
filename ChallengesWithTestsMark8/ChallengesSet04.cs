@@ -30,30 +30,45 @@ namespace ChallengesWithTestsMark8
             int min = 0;
             int min2 = 0;
 
-            if(a < b) //if a is min return a
-            { min = a; }
-            else if(b < a) // if b is min return b
-            { min = b; }
+            if(a < b)
+            {min = a;}
+            else if(b < a)
+            {min = b;}
 
-            if (c < d) //if c is min return c
-            { min2 = c; }
-
+            if (c < d)
+            {min2 = c;}
             else if (d < c)
             {min2 = d;}
+
+            if (min < min2)
+            {return min;}
+            return min2;
+        }
+
+        public int GetSmallestNumber(int number1, int number2, int number3, int number4)
+        {
+            int min = 0;
+            int min2 = 0;
+
+            if (number1 < number2)
+            { min = number1; }
+            else if (number2 < number1)
+            { min = number2; }
+
+            if (number3 < number4)
+            { min2 = number3; }
+
+            else if (number4 < number3)
+            { min2 = number4; }
 
             if (min < min2)
             { return min; }
             return min2;
         }
 
-        public int GetSmallestNumber(int number1, int number2, int number3, int number4)
-        {
-            throw new NotImplementedException();
-        }
-
         public void ChangeBusinessNameTo_TrueCoders(Business biz)
         {
-            throw new NotImplementedException();
+            biz.Name = "TrueCoders";
         }
 
         public bool CouldFormTriangle(int sideLength1, int sideLength2, int sideLength3)
@@ -65,13 +80,27 @@ namespace ChallengesWithTestsMark8
 
         public bool IsStringANumber(string input)
         {
-            throw new NotImplementedException();
-            //int.TryParse(input, out true) ;
+            bool success;
+
+            success = int.TryParse(input, out _);
+            return success;
         }
 
         public bool MajorityOfElementsInArrayAreNull(object[] objs)
         {
-            throw new NotImplementedException();
+            int ctr = 0;
+            int ctr2 = 0;
+            foreach(var obj in objs)
+            {
+                if(obj == null)
+                {
+                    ctr++;
+                }
+                else { ctr2++; }
+            }
+            if (ctr > ctr2)
+            { return true; }
+            return false;
         }
 
         public double AverageEvens(int[] numbers)
