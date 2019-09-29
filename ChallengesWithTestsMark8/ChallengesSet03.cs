@@ -39,7 +39,6 @@ namespace ChallengesWithTestsMark8
             {
                 return false;
             }
-
         }
 
         public bool PasswordContainsUpperLowerAndNumber(string password)
@@ -49,17 +48,17 @@ namespace ChallengesWithTestsMark8
             string low = password.ToLower();
             string num = "0123456789";
 
-            foreach(char u in password)
+            foreach(char c in password)
             {
-                if(up[u] == password[u])
+                if(up[c] == password[c])
                 {
                     ctr++;
                 }
-                if(low[u] == password[u])
+                if(low[c] == password[c])
                 {
                     ctr++;
                 }
-                if(num[u] == password[u])
+                if(num[c] == password[c])
                 {
                     ctr++;
                 }
