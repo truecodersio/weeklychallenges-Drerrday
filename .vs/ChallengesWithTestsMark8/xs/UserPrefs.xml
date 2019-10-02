@@ -1,20 +1,21 @@
 ﻿<Properties StartupConfiguration="{5D8F9EC8-A726-4E18-B4B5-C64B4DCDE247}|Default">
   <MonoDevelop.Ide.ItemProperties.ChallengesWithTestsMark8 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ChallengesWithTestsMark8/ChallengesSet05.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ChallengesWithTestsMark8/ChallengesSet02.cs">
     <Files>
-      <File FileName="ChallengesWithTestsMark8/ChallengesSet04.cs" Line="102" Column="29" />
-      <File FileName="ChallengesWithTestsMark8/ChallengesSet03.cs" Line="43" Column="1" />
-      <File FileName="ChallengesWithTestsMark8/ChallengesSet02.cs" Line="31" Column="45" />
-      <File FileName="ChallengesWithTestsMark8/ChallengesSet01.cs" Line="41" Column="40" />
-      <File FileName="ChallengesWithTestsMark8.Tests/ChallengesSet04Tests.cs" Line="1" Column="1" />
-      <File FileName="ChallengesWithTestsMark8/ChallengesSet05.cs" Line="1" Column="1" />
+      <File FileName="ChallengesWithTestsMark8/ChallengesSet06.cs" Line="21" Column="15" />
+      <File FileName="ChallengesWithTestsMark8/ChallengesSet05.cs" />
+      <File FileName="ChallengesWithTestsMark8/ChallengesSet04.cs" />
+      <File FileName="ChallengesWithTestsMark8/ChallengesSet03.cs" Line="106" Column="35" />
+      <File FileName="ChallengesWithTestsMark8/ChallengesSet02.cs" Line="1" Column="1" />
+      <File FileName="ChallengesWithTestsMark8/ChallengesSet01.cs" Line="1" Column="1" />
+      <File FileName="ChallengesWithTestsMark8/Program.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ChallengesWithTestsMark8" expanded="True">
             <Node name="ChallengesWithTestsMark8" expanded="True">
-              <Node name="ChallengesSet05.cs" selected="True" />
+              <Node name="ChallengesSet02.cs" selected="True" />
             </Node>
             <Node name="ChallengesWithTestsMark8.Tests" expanded="True" />
           </Node>

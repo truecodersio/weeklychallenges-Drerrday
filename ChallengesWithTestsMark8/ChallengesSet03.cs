@@ -35,10 +35,7 @@ namespace ChallengesWithTestsMark8
             {
                 return true;
             }
-            else
-            {
-                return false;
-            }
+            return false;
         }
 
         public bool PasswordContainsUpperLowerAndNumber(string password)
@@ -68,7 +65,7 @@ namespace ChallengesWithTestsMark8
             {
                 return true;
             }
-            else { return false; }
+            return false;
         }
 
         public char GetFirstLetterOfString(string val)
@@ -83,12 +80,16 @@ namespace ChallengesWithTestsMark8
 
         public decimal Divide(decimal dividend, decimal divisor)
         {
+            if (divisor == 0)
+            {
+                return 0;
+            }
             return dividend / divisor;
         }
 
         public int LastMinusFirst(int[] nums)
         {
-            return nums.Length - nums[0];
+            return nums[nums.Length - 1] - nums[0];
         }
 
         public int[] GetOddsBelow100()

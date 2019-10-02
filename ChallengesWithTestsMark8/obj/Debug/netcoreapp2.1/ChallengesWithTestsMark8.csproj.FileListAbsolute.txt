@@ -37,7 +37,6 @@ C:/Users/Chip/source/repos/Mark8ChallengesWithTests/ChallengesWithTestsMark8/obj
 /Users/hunterelam/Desktop/repos/weeklychallenges-Drerrday/ChallengesWithTestsMark8/bin/Debug/netcoreapp2.1/ChallengesWithTestsMark8.dll
 /Users/hunterelam/Desktop/repos/weeklychallenges-Drerrday/ChallengesWithTestsMark8/bin/Debug/netcoreapp2.1/ChallengesWithTestsMark8.pdb
 /Users/hunterelam/Desktop/repos/weeklychallenges-Drerrday/ChallengesWithTestsMark8/obj/Debug/netcoreapp2.1/ChallengesWithTestsMark8.csprojAssemblyReference.cache
-/Users/hunterelam/Desktop/repos/weeklychallenges-Drerrday/ChallengesWithTestsMark8/obj/Debug/netcoreapp2.1/ChallengesWithTestsMark8.csproj.CoreCompileInputs.cache
 /Users/hunterelam/Desktop/repos/weeklychallenges-Drerrday/ChallengesWithTestsMark8/obj/Debug/netcoreapp2.1/ChallengesWithTestsMark8.AssemblyInfoInputs.cache
 /Users/hunterelam/Desktop/repos/weeklychallenges-Drerrday/ChallengesWithTestsMark8/obj/Debug/netcoreapp2.1/ChallengesWithTestsMark8.AssemblyInfo.cs
 /Users/hunterelam/Desktop/repos/weeklychallenges-Drerrday/ChallengesWithTestsMark8/obj/Debug/netcoreapp2.1/ChallengesWithTestsMark8.dll

@@ -44,11 +44,8 @@ namespace ChallengesWithTestsMark8
             for (int i = 1; i < numbers.Length; i++)
             {
                 if (numbers[i - 1] % 2 == 0)
-                {
-                    sum += numbers[i];
-                }
+                { sum += numbers[i]; }
             }
-
             return sum;
         }
 
@@ -84,9 +81,7 @@ namespace ChallengesWithTestsMark8
             List<double> everyFourth = new List<double>();
 
             for (int i = 3; i < elements.Count; i += 4)
-            {
-                everyFourth.Add(elements[i]);
-            }
+            { everyFourth.Add(elements[i]); }
 
             return everyFourth.ToArray();
         }
@@ -103,7 +98,6 @@ namespace ChallengesWithTestsMark8
                     }
                 }
             }
-
             return false;
         }
     }

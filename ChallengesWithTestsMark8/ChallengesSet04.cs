@@ -31,17 +31,17 @@ namespace ChallengesWithTestsMark8
             int min2 = 0;
 
             if(a < b)
-            {min = a;}
+            { min = a; }
             else if(b < a)
-            {min = b;}
+            { min = b; }
 
             if (c < d)
-            {min2 = c;}
+            { min2 = c; }
             else if (d < c)
-            {min2 = d;}
+            { min2 = d; }
 
             if (min < min2)
-            {return min;}
+            { return min; }
             return min2;
         }
 

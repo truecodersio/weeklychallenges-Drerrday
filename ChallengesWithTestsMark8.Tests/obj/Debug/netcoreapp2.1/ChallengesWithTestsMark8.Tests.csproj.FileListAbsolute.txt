@@ -60,7 +60,6 @@ C:/Users/Chip/source/repos/Mark8ChallengesWithTests/ChallengesWithTestsMark8.Tes
 /Users/hunterelam/Desktop/repos/weeklychallenges-Drerrday/ChallengesWithTestsMark8.Tests/bin/Debug/netcoreapp2.1/ChallengesWithTestsMark8.dll
 /Users/hunterelam/Desktop/repos/weeklychallenges-Drerrday/ChallengesWithTestsMark8.Tests/bin/Debug/netcoreapp2.1/ChallengesWithTestsMark8.pdb
 /Users/hunterelam/Desktop/repos/weeklychallenges-Drerrday/ChallengesWithTestsMark8.Tests/obj/Debug/netcoreapp2.1/ChallengesWithTestsMark8.Tests.csprojAssemblyReference.cache
-/Users/hunterelam/Desktop/repos/weeklychallenges-Drerrday/ChallengesWithTestsMark8.Tests/obj/Debug/netcoreapp2.1/ChallengesWithTestsMark8.Tests.csproj.CoreCompileInputs.cache
 /Users/hunterelam/Desktop/repos/weeklychallenges-Drerrday/ChallengesWithTestsMark8.Tests/obj/Debug/netcoreapp2.1/ChallengesWithTestsMark8.Tests.AssemblyInfoInputs.cache
 /Users/hunterelam/Desktop/repos/weeklychallenges-Drerrday/ChallengesWithTestsMark8.Tests/obj/Debug/netcoreapp2.1/ChallengesWithTestsMark8.Tests.AssemblyInfo.cs
 /Users/hunterelam/Desktop/repos/weeklychallenges-Drerrday/ChallengesWithTestsMark8.Tests/obj/Debug/netcoreapp2.1/ChallengesWithTestsMark8.Tests.csproj.CopyComplete
