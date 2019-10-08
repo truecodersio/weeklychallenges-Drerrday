@@ -17,6 +17,8 @@ namespace ChallengesWithTestsMark8
 
         public int IndexOfLastUniqueLetter(string str)
         {
+            throw new NotImplementedException();
+            /*
             string[] ourUniqs = "";
             string uniqs = "!@#$%^&*()-+<>?,./";
             foreach(char u in str)
@@ -25,10 +27,11 @@ namespace ChallengesWithTestsMark8
                 {
                     if (str.Contains(uniqs[u]))
                     {
-                        str.Contains(uniqs[u]);
+                        ourUniqs = str.Contains(uniqs[u]);
                     }
                 }
             }
+            */
         }
 
         public int MaxConsecutiveCount(int[] numbers)
