@@ -140,10 +140,13 @@ namespace ChallengesWithTestsMark8
         public int Factorial(int number)
         {
             var Fact = 1;
+
+            if(number < 0)
+            { throw new ArgumentOutOfRangeException(); }
+
             for(int i = number; i > 0; i--)
-            {
-                Fact *= i;
-            }
+            { Fact *= i; }
+
             return Fact;
         }
     }
