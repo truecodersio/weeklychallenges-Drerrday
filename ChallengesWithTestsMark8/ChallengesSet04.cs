@@ -83,11 +83,6 @@ namespace ChallengesWithTestsMark8
 
         public bool CouldFormTriangle(int sideLength1, int sideLength2, int sideLength3)
         {
-            /*
-            if(sideLength1 + sideLength2 + sideLength3 == 180)
-            { return true; }
-            return false;
-            */
             return (sideLength1 + sideLength2 > sideLength3 &&
                     sideLength1 + sideLength3 > sideLength2 &&
                     sideLength2 + sideLength3 > sideLength1);

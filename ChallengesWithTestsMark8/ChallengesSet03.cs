@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace ChallengesWithTestsMark8
 {
@@ -23,49 +24,23 @@ namespace ChallengesWithTestsMark8
 
         public bool IsSumOfOddsOdd(IEnumerable<int> numbers)
         {
-            int Sum = 0;
-            foreach(int num in numbers)
-            {
-                if(num % 2 == 1)
-                {
-                    Sum += num;
-                }
-            }
-            if(Sum % 2 == 1)
-            {
-                return true;
-            }
-            return false;
+            if (numbers == null)
+            { return false; }
+            int numbersSum = numbers.Sum();
+            if (numbersSum % 2 != 0)
+            { return true; }
+            { return false; }
+
         }
 
         public bool PasswordContainsUpperLowerAndNumber(string password)
         {
-            int ctr = 0;
-            string up = password.ToUpper();
-            string low = password.ToLower();
-            string num = "0123456789";
-
-            foreach(char c in password)
+            bool answer = false;
+            if(password.Any(char.IsUpper) && password.Any(char.IsLower) && password.Any(char.IsNumber))
             {
-                if(up[c] == password[c])
-                {
-                    ctr++;
-                }
-                if(low[c] == password[c])
-                {
-                    ctr++;
-                }
-                if(num[c] == password[c])
-                {
-                    ctr++;
-                }
+                answer = true;
             }
-
-            if(ctr == 3)
-            {
-                return true;
-            }
-            return false;
+            return answer;
         }
 
         public char GetFirstLetterOfString(string val)
@@ -108,7 +83,10 @@ namespace ChallengesWithTestsMark8
 
         public void ChangeAllElementsToUppercase(string[] words)
         {
-            words = Array.ConvertAll(words, d => d.ToUpper());
+            for(int i = 0; i < words.Length; i++)
+            {
+                words[i] = words[i].ToUpper();
+            }
         }
     }
 }

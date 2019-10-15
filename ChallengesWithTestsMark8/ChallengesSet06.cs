@@ -8,6 +8,15 @@ namespace ChallengesWithTestsMark8
         public bool CollectionContainsWord(IEnumerable<string> words, string word, bool ignoreCase)
         {
             throw new NotImplementedException();
+            /*
+            foreach(string wordPassed in words)
+            {
+                if(wordPassed == word)
+                {
+                    return true;
+                }
+            }
+            */
         }
 
         public bool IsPrimeNumber(int num)

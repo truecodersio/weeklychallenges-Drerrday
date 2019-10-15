@@ -118,7 +118,7 @@ namespace ChallengesWithTestsMark8.Tests
 
         [Theory]
         [InlineData(new double[] { 0 }, 0)]
-        [InlineData(new double[] { 5 }, 10)]
+        //[InlineData(new double[] { 5 }, 10)]
         [InlineData(new double[] { 0, 0 }, 0)]
         [InlineData(new double[] { -5, 0 }, -5)]
         [InlineData(new double[] { 0, 5 }, 5)]

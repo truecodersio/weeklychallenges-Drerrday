@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using System.Linq;
+using System.Text;
 
 namespace ChallengesWithTestsMark8
 {
@@ -8,13 +9,9 @@ namespace ChallengesWithTestsMark8
     {
         public bool CharacterIsALetter(char c)
         {
-            if(c == ' ')
-            {
-                return true;
-            } else
-            {
-                return false;
-            }
+            if (char.IsLetter(c))
+            { return true; }
+            return false;
         }
 
         public bool CountOfElementsIsEven(string[] vals)
@@ -42,21 +39,23 @@ namespace ChallengesWithTestsMark8
 
         public double SumOfMinAndMax(IEnumerable<double> numbers)
         {
+            if(numbers == null)
+            { return 0; }
             double min = 0;
             double max = 0;
 
             foreach (double num in numbers)
             {
-                if(num > max)
+                if (num > max)
                 {
                     max = num;
                 }
-                if(num < min)
+                if (num < min && num <= max)
                 {
                     min = num;
                 }
             }
-            return max - min;
+            return max + min;
         }
 
         public int GetLengthOfShortestString(string str1, string str2)
@@ -74,31 +73,37 @@ namespace ChallengesWithTestsMark8
 
         public int Sum(int[] numbers)
         {
+            if(numbers == null)
+            { return 0; }
             int total = 0;
-            var arrlength = numbers.Length;
-            for (int i = 0; i < arrlength; i++)
+            for (int i = 0; i < numbers.Length; i++)
             {
                 total += numbers[i];
             }
-
             return total;
         }
         
         public int SumEvens(int[] numbers)
         {
-            int total = 0;
-            var arrlength = numbers.Length;
-            for (int i = 0; i < arrlength; i++)
+            int num = 0;
+            if (numbers == null)
+            { return 0; }
+            if (numbers.Count() == 0)
+            { return 0; }
+            for (int i = 0; i < numbers.Length; i++)
             {
-                if(numbers[i] % 2 == 0)
-                total += numbers[i];
+                if (numbers[i] % 2 == 0)
+                {
+                    num += numbers[i];
+                }
             }
-
-            return total;
+            return num;
         }
 
         public bool IsSumOdd(List<int> numbers)
         {
+            if (numbers == null)
+            { return false; }
             int sum = 0;
             int Amount = numbers.Count;
             for(int i = 0; i < Amount; i++)
@@ -110,16 +115,32 @@ namespace ChallengesWithTestsMark8
 
         public long CountOfPositiveOddsBelowNumber(long number)
         {
-            int oddCount = 0;
-            for(int i = 0; i < number; i++)
+            long oddcount = 0;
+            for (int i = 0; i < number; i++)
             {
-                if (number % 2 == 1)
+                if (i % 2 != 0)
                 {
-                    oddCount++;
+                    oddcount++;
                 }
             }
+            return oddcount;
+        }
 
-            return oddCount;
+        public static string CreatePhoneNumber(int[] numbers)
+        {
+            //string.Format(("{0:(###) ###-####}", sNumber);
+            string sNumber = numbers.ToString();
+            //string.Format(("{0:(###) ###-####}", numbers);
+            string formatted =
+               new StringBuilder(14)
+               .Append('(')
+               .Append(sNumber, 0, 3)
+               .Append(") ")
+               .Append(sNumber, 3, 3)
+               .Append('-')
+               .Append(sNumber, 6, 4)
+               .ToString();
+            return formatted;
         }
     }
 }
