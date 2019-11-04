@@ -23,9 +23,10 @@ namespace ChallengesWithTestsMark8
 
         public bool IsAscendingOrder(int[] numbers)
         {
-            if (numbers == null)
+            if (numbers == null || numbers.Length == 0)
+            {
                 return false;
-
+            }
             for (int i = 1; i < numbers.Length; i++)
             {
                 if (numbers[i] < numbers[i - 1])
@@ -79,11 +80,16 @@ namespace ChallengesWithTestsMark8
 
         public double[] GetEveryFourthElement(List<double> elements)
         {
-           if(elements.Count == 0)
-           {
+            double[] r = new double[0];
+            if(elements == null)
+            {
+                return r;
+            }
+            if(elements.Count == 0)
+            {
                return new double[] { };
-           }
-           List<double> everyFourth = new List<double>();
+            }
+            List<double> everyFourth = new List<double>();
 
             for (int i = 3; i < elements.Count; i += 4)
             { everyFourth.Add(elements[i]); }

@@ -1,21 +1,16 @@
 ﻿<Properties StartupConfiguration="{5D8F9EC8-A726-4E18-B4B5-C64B4DCDE247}|Default">
   <MonoDevelop.Ide.ItemProperties.ChallengesWithTestsMark8 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ChallengesWithTestsMark8/ChallengesSet02.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ChallengesWithTestsMark8/ChallengesSet06.cs">
     <Files>
-      <File FileName="ChallengesWithTestsMark8/ChallengesSet06.cs" Line="10" Column="49" />
-      <File FileName="ChallengesWithTestsMark8/ChallengesSet05.cs" Line="1" Column="1" />
-      <File FileName="ChallengesWithTestsMark8/ChallengesSet04.cs" Line="54" Column="25" />
-      <File FileName="ChallengesWithTestsMark8/ChallengesSet03.cs" Line="32" Column="30" />
-      <File FileName="ChallengesWithTestsMark8/ChallengesSet02.cs" Line="101" Column="10" />
-      <File FileName="ChallengesWithTestsMark8/Program.cs" Line="1" Column="1" />
-      <File FileName="ChallengesWithTestsMark8.Tests/ChallengesSet02Tests.cs" Line="121" Column="11" />
+      <File FileName="ChallengesWithTestsMark8/ChallengesSet06.cs" Line="96" Column="32" />
+      <File FileName="ChallengesWithTestsMark8/Program.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ChallengesWithTestsMark8" expanded="True">
             <Node name="ChallengesWithTestsMark8" expanded="True">
-              <Node name="ChallengesSet02.cs" selected="True" />
+              <Node name="ChallengesSet06.cs" selected="True" />
             </Node>
             <Node name="ChallengesWithTestsMark8.Tests" expanded="True" />
           </Node>
@@ -26,7 +21,9 @@
           <Node name="ChallengesWithTestsMark8" expanded="True">
             <Node name="ChallengesWithTestsMark8.Tests" expanded="True">
               <Node name="ChallengesWithTestsMark8" expanded="True">
-                <Node name="Tests" expanded="True" />
+                <Node name="Tests" expanded="True">
+                  <Node name="ChallengesSet06Tests" expanded="True" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
