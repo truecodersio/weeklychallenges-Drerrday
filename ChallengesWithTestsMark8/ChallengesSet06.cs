@@ -90,14 +90,19 @@ namespace ChallengesWithTestsMark8
         {
             var arr = new List<double>();
 
-            if(elements == null || n == -1)
-            { return arr.ToArray(); }
-            for (int i = 0; i < elements.Capacity; i++)
+            if(elements == null || n <= 0)
+            {
+                return arr.ToArray();
+            }
+            for (int i = 0; i < elements.Count; i+=n)
             {
                 if((i % n) == 0)
                 {
-                    //arr[i] = elements[i];
                     arr.Add(elements[i]);
+                }
+                else if (i == 0 && i % n == 0)
+                {
+                    return arr.ToArray();
                 }
             }
             return arr.ToArray();

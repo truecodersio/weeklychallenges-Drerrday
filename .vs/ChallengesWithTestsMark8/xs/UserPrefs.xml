@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.ItemProperties.ChallengesWithTestsMark8 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="ChallengesWithTestsMark8/ChallengesSet06.cs">
     <Files>
-      <File FileName="ChallengesWithTestsMark8/ChallengesSet06.cs" Line="96" Column="32" />
+      <File FileName="ChallengesWithTestsMark8/ChallengesSet06.cs" Line="97" Column="38" />
       <File FileName="ChallengesWithTestsMark8/Program.cs" />
     </Files>
     <Pads>
@@ -13,19 +13,6 @@
               <Node name="ChallengesSet06.cs" selected="True" />
             </Node>
             <Node name="ChallengesWithTestsMark8.Tests" expanded="True" />
-          </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="ChallengesWithTestsMark8" expanded="True">
-            <Node name="ChallengesWithTestsMark8.Tests" expanded="True">
-              <Node name="ChallengesWithTestsMark8" expanded="True">
-                <Node name="Tests" expanded="True">
-                  <Node name="ChallengesSet06Tests" expanded="True" selected="True" />
-                </Node>
-              </Node>
-            </Node>
           </Node>
         </State>
       </Pad>
